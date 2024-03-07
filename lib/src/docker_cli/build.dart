@@ -6,7 +6,7 @@
 
 import 'package:dcli/dcli.dart';
 
-import '../../docker2.dart';
+import '../../docker.dart';
 
 ///
 /// Builds a docker image from the docker file at [pathToDockerFile]

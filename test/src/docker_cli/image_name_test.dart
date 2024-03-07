@@ -4,7 +4,7 @@
  * Written by Brett Sutton <bsutton@onepub.dev>, Jan 2022
  */
 
-import 'package:docker2/docker2.dart';
+import 'package:docker/docker.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -5,7 +5,7 @@
  */
 
 import 'package:dcli/dcli.dart';
-import 'package:docker2/docker2.dart';
+import 'package:docker/docker.dart';
 import 'package:path/path.dart';
 import 'package:test/test.dart';
 

@@ -4,8 +4,8 @@
  * Written by Brett Sutton <bsutton@onepub.dev>, Jan 2022
  */
 
-import 'package:docker2/docker2.dart';
-import 'package:docker2/src/docker_cli/exceptions.dart';
+import 'package:docker/docker.dart';
+import 'package:docker/src/docker_cli/exceptions.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -45,8 +45,7 @@ void main() {
     // create volume.
     final volume = Volume.create(name: 'hello_world_volume');
     const mountPoint = '/home/hellow';
-    final container =
-        Container.create(hellow!, volumes: [VolumeMount(volume, mountPoint)]);
+    final container = Container.create(hellow!, volumes: [VolumeMount(volume, mountPoint)]);
     expect(container.image == hellow, isTrue);
     final volumes = container.volumes;
     expect(volumes.length == 1, isTrue);

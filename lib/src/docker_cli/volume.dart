@@ -6,7 +6,7 @@
 
 // ignore_for_file: unnecessary_cast
 
-import '../../docker2.dart';
+import '../../docker.dart';
 import 'exceptions.dart';
 
 /// A docker container.

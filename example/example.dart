@@ -4,9 +4,8 @@
  * Written by Brett Sutton <bsutton@onepub.dev>, Jan 2022
  */
 
-
 import 'package:dcli/dcli.dart';
-import 'package:docker2/docker2.dart';
+import 'package:docker/docker.dart';
 
 void main(List<String> args) {
   final image = Docker().findImageByName('alpine');
@@ -24,8 +23,7 @@ void main(List<String> args) {
   }
 
   /// create container named alpine_sleep_inifinity
-  final container =
-      alpineImage.create('alpine_sleep_inifinity', argString: 'sleep infinity');
+  final container = alpineImage.create('alpine_sleep_inifinity', argString: 'sleep infinity');
 
   if (Docker().findContainerByName('alpine_sleep_inifinity') == null) {
     // ignore: avoid_print

@@ -1,16 +1,17 @@
 name: docker
-version: 4.5.0-alpha.8
+version: 4.5.0-alpha.9
 description: Simple library for viewing and controlling docker images and containers.
-repository: https://github.com/open-runtime/docker.git
+repository: https://github.com/plato79/docker.git
 publish_to: none
 environment:
   sdk: ">=3.0.0 <4.0.0"
 dependencies:
   args: ^2.0.0
-  dcli: 
-    git: 
-      url: https://github.com/onepub-dev/dcli.git
+  dcli:
+    git:
+      url: https://github.com/wilinz/dcli
       path: dcli
+      ref: master
   path: ^1.8.0
 dev_dependencies:
   lint_hard: ^4.0.0

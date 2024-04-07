@@ -143,18 +143,18 @@ packages:
     dependency: transitive
     description:
       name: dcli_common
-      sha256: "9a6b9a157172e1e0d7af57363df0c17ca19b41e521410c950fc5a705fa5cac0c"
+      sha256: aee27d0b2dff2de25d653a391f15cd413ddd5447c53db95720f5fc404fd4891e
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.1-beta.1"
+    version: "4.0.1-beta.2"
   dcli_core:
     dependency: transitive
     description:
       name: dcli_core
-      sha256: d053a148c6628d010a56dcf2e526bd70889316cc9a50252d39e1339b8ff1c94f
+      sha256: "333efcd0655f06788b26c28fb1fa1d8ed3a212c3b0fa5cb5ffc616a3360d302f"
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.1-beta.1"
+    version: "4.0.1-beta.2"
   dcli_terminal:
     dependency: transitive
     description:
@@ -176,10 +176,10 @@ packages:
     dependency: transitive
     description:
       name: ffi
-      sha256: "7bf0adc28a23d395f19f3f1eb21dd7cfd1dd9f8e1c50051c069122e6853bc878"
+      sha256: "493f37e7df1804778ff3a53bd691d8692ddf69702cf4c1c1096a2e41b4779e21"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.2"
   file:
     dependency: transitive
     description:
@@ -368,10 +368,10 @@ packages:
     dependency: transitive
     description:
       name: pointycastle
-      sha256: "43ac87de6e10afabc85c445745a7b799e04de84cebaa4fd7bf55a5e1e9604d29"
+      sha256: "70fe966348fe08c34bf929582f1d8247d9d9408130723206472b4687227e4333"
       url: "https://pub.dev"
     source: hosted
-    version: "3.7.4"
+    version: "3.8.0"
   pool:
     dependency: transitive
     description:
@@ -520,10 +520,10 @@ packages:
     dependency: transitive
     description:
       name: strings
-      sha256: "1f3db7347b8dfd9844ee7fb34883cffbe6cc723a63cb9f4a0aa19e619304b030"
+      sha256: b33f40c4dd3e597bf6d9e7f4f4dc282dad0f19b07d9f320cb5c2183859cbccf5
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.0"
+    version: "3.1.1"
   sum_types:
     dependency: transitive
     description:
@@ -648,10 +648,10 @@ packages:
     dependency: transitive
     description:
       name: win32
-      sha256: "5a751eddf9db89b3e5f9d50c20ab8612296e4e8db69009788d6c8b060a84191c"
+      sha256: "0a989dc7ca2bb51eac91e8fd00851297cfffd641aa7538b165c62637ca0eaa4a"
       url: "https://pub.dev"
     source: hosted
-    version: "4.1.4"
+    version: "5.4.0"
   yaml:
     dependency: transitive
     description:

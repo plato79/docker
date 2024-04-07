@@ -1,5 +1,5 @@
 name: docker
-version: 4.5.0-alpha.9
+version: 4.6.0
 description: Simple library for viewing and controlling docker images and containers.
 repository: https://github.com/plato79/docker.git
 publish_to: none
